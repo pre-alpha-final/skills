@@ -1,0 +1,4 @@
+interface:
+  display_name: "img2glb"
+  short_description: "Create textured GLB models from reference images"
+  default_prompt: "Use $img2glb to make a best-effort textured GLB from these images and provide an interactive preview."
