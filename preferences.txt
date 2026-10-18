@@ -1,0 +1,10 @@
+## Line endings
+Preserve each file’s existing line endings exactly.
+Before editing a text file, detect whether it uses CRLF or LF.
+When replacing or inserting lines, use the same line ending style as the file.
+Do not normalize line endings unless explicitly asked.
+Avoid edits that create mixed CRLF/LF files.
+After editing, check git diff --check and ensure the diff does not contain line-ending-only changes.
+
+## Marketing copy
+During webpage UI design do NOT add marketing copy unless you're absolutely sure it'll improve the page. And even then be conservative.
